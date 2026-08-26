@@ -1,0 +1,20 @@
+{
+  "name": "dsh-duty-separation-proof",
+  "version": "0.1.0",
+  "description": "Offline proof that a supplied DSH workflow preserves declared duty separation",
+  "author": { "name": "dongsheng123132" },
+  "homepage": "https://github.com/dongsheng123132/dsh-duty-separation-proof",
+  "repository": "https://github.com/dongsheng123132/dsh-duty-separation-proof",
+  "license": "MIT",
+  "keywords": ["deepseek-harness", "dsh", "separation-of-duties", "audit", "evidence"],
+  "interface": {
+    "displayName": "DSH Duty Separation Proof",
+    "shortDescription": "Verify supplied workflow duty separation.",
+    "longDescription": "Checks hash-bound workflow receipts for exact duty order, independent principals, approval quorum, receipt continuity, observer diversity and freshness without granting authority, approving or executing actions.",
+    "developerName": "dongsheng123132",
+    "category": "Developer Tools",
+    "capabilities": ["MCP tools", "DSH tools", "offline verification"],
+    "defaultPrompt": ["Verify this supplied workflow ledger for duty separation without executing it."]
+  },
+  "mcpServers": "./.mcp.json"
+}

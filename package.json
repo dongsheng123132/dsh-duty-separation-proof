@@ -1,0 +1,16 @@
+{
+  "name": "dsh-duty-separation-proof",
+  "version": "0.1.0",
+  "description": "Offline content-addressed proof for supplied DSH workflow duty separation",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "exports": { ".": "./index.js", "./proof": "./lib/duty-separation-proof.mjs" },
+  "bin": { "dsh-duty-separation-proof": "./bin/dsh-duty-separation-proof.mjs" },
+  "files": [".codex-plugin/", ".mcp.json", "bin/", "cordis.patch.yml", "examples/", "index.js", "lib/", "mcp-server.mjs", "LICENSE", "README.md", "README.zh-CN.md", "SECURITY.md"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "scripts": { "test": "node --test test/*.test.mjs", "check": "node scripts/check.mjs", "smoke:plugin": "node test/plugin-smoke.mjs", "smoke:mcp": "node test/mcp-smoke.mjs", "smoke:dsh": "node test/dsh-runtime-smoke.mjs" },
+  "engines": { "node": ">=22" },
+  "repository": { "type": "git", "url": "git+https://github.com/dongsheng123132/dsh-duty-separation-proof.git" },
+  "keywords": ["deepseek-harness", "dsh", "dsh-plugin", "separation-of-duties", "audit", "evidence"]
+}

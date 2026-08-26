@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dsh-duty-separation-proof": {
+      "command": "node",
+      "args": ["${pluginDir}/mcp-server.mjs"]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+- insert:
+    - id: dsh-duty-separation-proof
+      name: dsh-duty-separation-proof
+      config:
+        workspaceRoot: .
