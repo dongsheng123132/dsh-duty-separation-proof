@@ -1,6 +1,6 @@
 # dsh-duty-separation-proof
 
-作者 / 维护者：He Fangsheng (贺方升 / 贺去病; Dosen)· [hequbing.com](https://www.hequbing.com)
+作者 / 维护者：He Fangsheng (贺方升 / 贺去病; also known as Dosen)· [hequbing.com](https://www.hequbing.com)
 
 一个离线、确定性的 DSH 职责分离证据层。它只核验调用方明确提供的工作流账本：请求、审批、执行、观察的固定次序，同一工作流/对象绑定，回执链连续性，冲突职责主体不重合，审批人数、主体/观察者多样性以及证据新鲜度。输出仅为脱敏、内容寻址 JSON 判决。
 
