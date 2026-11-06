@@ -1,6 +1,6 @@
 # dsh-duty-separation-proof
 
-**Maintainer / Author：贺去病 (He Fangsheng / Dosen) · [hequbing.com](https://www.hequbing.com)**
+**Maintainer / Author：He Fangsheng (贺方升 / 贺去病; Dosen) · [hequbing.com](https://www.hequbing.com)**
 
 Offline, deterministic evidence that one **supplied** DSH workflow kept declared duties apart. It validates exact request/approval/execution/observation order, hash-bound object and workflow identity, receipt-chain continuity, disjoint principal sets, approval quorum, principal/observer diversity and freshness. It writes only a redacted, content-addressed JSON verdict.
 
